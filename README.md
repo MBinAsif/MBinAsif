@@ -19,7 +19,7 @@
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
 
 ### 😂 Random Dev Meme
-<img src="https://api.dev.to/memes/random" width="512px"/>
+![](https://api.dev.to/memes/random)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=MBinAsif&icon=4&color=12)](https://visitcount.itsvg.in)
