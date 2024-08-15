@@ -19,9 +19,9 @@
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
 
 ### 😂 Random Dev Meme
-<img src="https://rm.up.railway.app/" width="512px"/>
+<img src="https://api.dev.to/memes/random" width="512px"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=MBinAsif&icon=4&color=12)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
