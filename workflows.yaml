@@ -1,0 +1,20 @@
+name: Update README with Dev Meme
+on:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update README
+        run: |
+          curl -s https://random-memer.herokuapp.com/ > meme.jpg
+          echo "!Random Dev Meme" > README.md
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update README with random meme'
+          git push
